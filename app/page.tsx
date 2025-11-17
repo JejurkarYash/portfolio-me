@@ -7,6 +7,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import NavBar from "@/components/NavBar";
 import { ThemeBackground } from "@/components/ThemeBackground";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
@@ -16,6 +17,7 @@ export default function Home() {
         <AboutMe />
         <Skills />
         <Projects />
+        <Footer />
         <NavBar />
       </main>
     </ThemeBackground>
