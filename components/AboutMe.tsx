@@ -61,9 +61,9 @@ const AboutMe = () => {
                     transition={{ duration: 0.4, delay: 0.1 }}
                 >
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-pulse" />
-                    available for internship · 2026
+                    Open For Opportunities
                 </motion.div>
-
+ 
                 {/* Name */}
                 <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight leading-none mb-2">
                     <AnimatedLink>Yash Jejurkar</AnimatedLink>

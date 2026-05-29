@@ -33,7 +33,7 @@ const projectsList: Project[] = [
     {
         id: 1,
         title: "Lynx Draw",
-        image: "/LynxDraw.png",
+        image: "/lynxDraw.png",
         link: "https://lynx-draw-frontend.onrender.com/",
         github: "https://github.com/JejurkarYash/lynx-draw",
         description: "Real-time collaborative whiteboard load tested with 100 concurrent users at 110ms p95. Redis Pub/Sub for zero-latency canvas sync.",
@@ -43,7 +43,7 @@ const projectsList: Project[] = [
     {
         id: 2,
         title: "Second Brain",
-        image: "/SecondBrain.png",
+        image: "/secondBrain.png",
         link: "https://second-brain-8gsk.vercel.app/",
         github: "https://github.com/JejurkarYash/second-brain",
         description: "Personal knowledge vault for saving content from YouTube, Twitter, and articles with metadata scraping and encrypted public sharing.",
