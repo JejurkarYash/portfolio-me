@@ -18,14 +18,9 @@ export function ThemeBackground({ children }: { children: React.ReactNode }) {
 
     return (
         <motion.div
-            animate={{
-                backgroundColor: resolvedTheme === "dark" ? "#000000" : "#ffffff",
-            }}
-            transition={{
-                duration: 0.5,
-                ease: "easeInOut",
-            }}
-            className="min-h-screen"
+            animate={{ backgroundColor: resolvedTheme === "dark" ? "#080808" : "#ffffff" }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+            className="min-h-screen relative"
         >
             {children}
         </motion.div>
