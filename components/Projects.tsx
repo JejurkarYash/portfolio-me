@@ -126,7 +126,7 @@ function FeaturedCard({ project, index, onExpand }: { project: Project; index: n
                     <div className="absolute top-3 right-3 flex gap-1.5 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-1 group-hover:translate-y-0">
                         <button
                             onClick={() => onExpand(project)}
-                            className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-background/90 backdrop-blur-sm border border-border text-[10px] font-semibold text-primary hover:bg-card transition-colors cursor-pointer"
+                            className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-neutral-950/90 dark:bg-white/90 backdrop-blur-sm border border-white/10 dark:border-neutral-200/20 text-[10px] font-semibold text-white dark:text-neutral-950 hover:bg-black dark:hover:bg-white transition-colors cursor-pointer"
                         >
                             <ExternalLink size={10} />
                             Preview
@@ -134,7 +134,7 @@ function FeaturedCard({ project, index, onExpand }: { project: Project; index: n
                         <Link
                             href={project.link}
                             target="_blank"
-                            className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-background/90 backdrop-blur-sm border border-border text-[10px] font-semibold text-primary hover:bg-card transition-colors cursor-pointer"
+                            className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-neutral-950/90 dark:bg-white/90 backdrop-blur-sm border border-white/10 dark:border-neutral-200/20 text-[10px] font-semibold text-white dark:text-neutral-950 hover:bg-black dark:hover:bg-white transition-colors cursor-pointer"
                             onClick={e => e.stopPropagation()}
                         >
                             Visit
